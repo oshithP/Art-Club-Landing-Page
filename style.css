@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+     min-height: 60vh;
+     background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjYxLWUwMDMtbDB0NXYyNXguanBn.jpg);
+     background-size: 1535px;
+     background-position: top;
+}
+ .top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+ }
+ .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: rgb(255, 255, 255);
+    bottom: 5%;
+ }
+ .text h1{
+    font-weight: 600;
+    font-size: 4vw;
+ }
+ .rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .rtext p{
+    font-size: 12px;
+ }
+ .bottom {
+   display: flex;
+   width: 100%;
+   min-height: 50vh;
+}
+.b1{
+   width: 30%;
+   background-image: url(https://www.shutterstock.com/image-illustration/background-illustration-inspired-by-painting-260nw-2216395631.jpg) ;
+   background-size: cover;
+   background-position: relative ;
+}
+.b1 h1{
+   color: beige;
+   padding: 20vh;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+.b2{
+   width: 30%;
+   background-image: url(https://cdn.shopify.com/s/files/1/0047/4231/6066/files/The_Scream_by_Edvard_Munch_1893_800x.png);
+   background-size: cover;
+   background-position: bottom;
+}
+.b2 h1{
+   color: rgb(249, 249, 250);
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   padding: 20vh;
+   
+}
+.down{
+   width: 40%;
+   background-image: url(https://images.alphacoders.com/695/thumb-1920-69561.jpg);
+   background-size: cover;
+   background-position: relative ;
+}
+.overlay p{
+   text-align: end;
+   padding-right: 3vh;
+   color:slategray;
+}
+.down h1{
+   text-align: center;
+   color: rgb(94, 165, 222);
+   font-family: 'Times New Roman', Times, serif;
+}
+ 
